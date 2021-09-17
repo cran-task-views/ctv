@@ -55,10 +55,13 @@ With text or icon? Affiliation? Personal web page?
 ### How to contribute?
 
 For contributing to an existing task view please go to the respective repository
-(see links above) and follow the guidelines in <CONTRIBUTING.md>.
+(see links above) and follow the guidelines in `CONTRIBUTING.md`.
 
-For proposing a new task view please follow the guidelines in <PROPOSAL.md>.
+For proposing a new task view please follow the guidelines in `PROPOSAL.md`.
 
-Technical documentation about the task view format is in <DOCUMENTATION.md>.
+Technical documentation about the task view format is in `DOCUMENTATION.md`.
 
-All contributions must be made under the following <CODEOFCONDUCT.md>
+All contributions must be made under the following `CODEOFCONDUCT.md`.
+
+**FIXME:** Better file names? How to make the file names active links?
+
