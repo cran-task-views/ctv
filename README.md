@@ -35,11 +35,11 @@ a new one.
 
 ### CRAN Task View Editors
 
-* Henrik Bengtsson
-* Roger Bivand
-* Dirk Eddelbuettel
-* Heather Turner
-* Achim Zeileis
+* [Henrik Bengtsson](https://github.com/HenrikBengtsson)
+* [Roger Bivand](https://github.com/rsbivand)
+* [Dirk Eddelbuettel](https://github.com/eddelbuettel)
+* [Heather Turner](https://github.com/hturner)
+* [Achim Zeileis](https://github.com/zeileis)
 
 **FIXME:** Which additional information to add here? Just GitHub handle?
 With text or icon? Affiliation? Personal web page?
