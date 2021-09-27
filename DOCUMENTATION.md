@@ -71,6 +71,9 @@ is given in the YAML header at the beginning (separated by lines with `---`),
 followed by (2) the information in the main text, and (3) a concluding special
 section called `Links`.
 
+
+## Details
+
 The metainformation needs to provide the following elements:
 
 * `name` gives the name of the task view in _CamelCase_. This is used as the
