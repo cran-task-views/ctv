@@ -55,13 +55,13 @@ With text or icon? Affiliation? Personal web page? RSB: Do we want contact with 
 ### How to contribute?
 
 For contributing to an existing task view please go to the respective repository
-(see links above) and follow the guidelines in `CONTRIBUTING.md`.
+(see links above) and follow the guidelines in [Contributing](Contributing.md).
 
-For proposing a new task view please follow the guidelines in `PROPOSAL.md`.
+For proposing a new task view please follow the guidelines in [Proposal](Proposal.md).
 
-Technical documentation about the task view format is in `DOCUMENTATION.md`.
+Technical documentation about the task view format is in [Documentation](Documentation.md).
 
-All contributions must be made under the following `CODEOFCONDUCT.md`.
+All contributions must be made under the following [Code of conduct](CodeOfConduct.md).
 
-**FIXME:** Better file names? How to make the file names active links?
+**FIXME:** Better file names? [DE: Done] How to make the file names active links? [DE: Done] 
 
