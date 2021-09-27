@@ -42,14 +42,14 @@ a new one.
 * [Achim Zeileis](https://github.com/zeileis)
 
 **FIXME:** Which additional information to add here? Just GitHub handle?
-With text or icon? Affiliation? Personal web page?
+With text or icon? Affiliation? Personal web page? RSB: Do we want contact with the group as such - that would suggest issues in this repo for this group? Or is it OK for contact to go randomly to an editor? If the former, no handles here at all, or maybe just `*@R-project.org`? In any case, contact about the contents of individual TVs should be by issue/PR for that specific TV.
 
 
 ### Available task views
 
 * [Econometrics](https://github.com/cran-task-views/Econometrics/)
 
-**FIXME:** Maintain this list manually? Or generate it automatically? If so, how?
+**FIXME:** Maintain this list manually? Or generate it automatically? If so, how? RSB do we expect all TVs to be hosted by this organisation (no?)? I feel that as TVs convert, this group may need to offer help to get the TV maintainers feeling confident, but the more they take responsibility the better.
 
 
 ### How to contribute?
