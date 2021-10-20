@@ -80,7 +80,7 @@ The metainformation needs to provide the following elements:
 identifier for installing the view and as the name for the R/Markdown file, e.g.,
 `Econometrics.md`, and the auto-generated HTML file, e.g., `Econometrics.html`.
 Hence, it should be not too long (typically 1-3 words) and contain no special
-characters like.
+characters like spaces, hyphens, etc.
 
 * `topic` is a plain text specification of the topic of the task view. In the
 example above it is identical to the `name` but is often a somewhat longer and
@@ -93,13 +93,13 @@ further co-maintainers that help keeping the task view up to date.
 * `email` is the e-mail address of the principal contact or possibly a dedicated
 mailing list shared by the co-maintainers.
 
-* `version` is specified by a date in ISO format.
+* `version` is specified by a date in ISO 8601 format (yyyy-mm-dd).
 
 The information in the main text should be a short description of the packages,
 explaining which packages are useful for which tasks. Standard Markdown format
 (see <https://en.wikipedia.org/wiki/Markdown> for an overview) can be used to
 structure the document with sections, itemized and enumerated lists, bold face,
-italics, etc. Additionally, short R code chunks with special functions for linking
+italics, etc. Additionally, short R code chunks with special functions are used for linking
 to resources in the same repository: `pkg()` for normal packages,
 `pkg(..., priority = "core")` for important "core" packages,  and
 `view()` for related task views. A convenience function `doi()` creates links for
