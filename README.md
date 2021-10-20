@@ -42,14 +42,35 @@ a new one.
 * [Achim Zeileis](https://github.com/zeileis)
 
 **FIXME:** Which additional information to add here? Just GitHub handle?
-With text or icon? Affiliation? Personal web page? RSB: Do we want contact with the group as such - that would suggest issues in this repo for this group? Or is it OK for contact to go randomly to an editor? If the former, no handles here at all, or maybe just `*@R-project.org`? In any case, contact about the contents of individual TVs should be by issue/PR for that specific TV.
+With text or icon? Affiliation? Personal web page?
 
+* RSB: Do we want contact with the group as such - that would suggest issues in this repo for this group?
+  Or is it OK for contact to go randomly to an editor? If the former, no handles here at all, or maybe just
+  `*@R-project.org`?  
+  Z: Typically, contact will be with the group as such, i.e., through issues in this repo, especially for
+  proposing new task views which should be described in [Proposal](Proposal.md). However, as we think about
+  this like an editorial board we would typically also list the affiliation for a scientific journal along
+  with potentially further information (see e.g., [JSS Editorial Team](https://www.jstatsoft.org/about/editorialTeam)).
+  And although we start now with a team of editors that are all R Foundation members, this will change as
+  we will try to involve some younger and more diverse CTV Editors as well.
+  
+* RSB: In any case, contact about the contents of individual TVs should be by issue/PR for that specific TV.  
+  Z: Yes, completely agree. Would you mind outlining a potential workflow with in [Contributing](Contributing.md)?
 
 ### Available task views
 
 * [Econometrics](https://github.com/cran-task-views/Econometrics/)
 
-**FIXME:** Maintain this list manually? Or generate it automatically? If so, how? RSB do we expect all TVs to be hosted by this organisation (no?)? I feel that as TVs convert, this group may need to offer help to get the TV maintainers feeling confident, but the more they take responsibility the better.
+**FIXME:** Maintain this list manually? Or generate it automatically? If so, how?
+
+* RSB: Do we expect all TVs to be hosted by this organisation (no?)?  
+  Z: Yes. All official task views should be hosted by this organization.
+
+* RSB: I feel that as TVs convert, this group may need to offer help to get the TV maintainers
+  feeling confident, but the more they take responsibility the better.  
+  Z: Yes, we should help them getting started. Also we will push for teams of maintainers
+  (rather than a single person) so that ideally at least one person in the maintainer team
+  would be more confident with the technical/GitHub aspects.
 
 
 ### How to contribute?
@@ -62,6 +83,3 @@ For proposing a new task view please follow the guidelines in [Proposal](Proposa
 Technical documentation about the task view format is in [Documentation](Documentation.md).
 
 All contributions must be made under the following [Code of conduct](CodeOfConduct.md).
-
-**FIXME:** Better file names? [DE: Done] How to make the file names active links? [DE: Done] 
-
