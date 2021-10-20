@@ -30,7 +30,7 @@ text and a handful of special R functions are provided to link to CRAN
 packages, other task views, GitHub projects, etc.
 
 > In `ctv` versions prior to 0.9-0 (released in late 2021), task views used
-> an XML-based format (introduced in Zeileis 2005, _R News_, **5**(1), 39-40).
+> an XML-based format (introduced in [Zeileis 2005, _R News_, **5**(1), 39-40](https://www.r-project.org/doc/Rnews/Rnews_2005-1.pdf)).
 > See below for converting task views from the old XML-based format to the
 > new R/Markdown format.
 
