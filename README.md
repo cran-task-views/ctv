@@ -35,7 +35,6 @@ a new one.
 
 ### CRAN Task View Editors
 
-* [Henrik Bengtsson](https://github.com/HenrikBengtsson)
 * [Roger Bivand](https://github.com/rsbivand)
 * [Dirk Eddelbuettel](https://github.com/eddelbuettel)
 * [Heather Turner](https://github.com/hturner)
