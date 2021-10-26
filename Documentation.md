@@ -78,7 +78,7 @@ section called `Links`.
 The metainformation needs to provide the following elements:
 
 * `name` gives the name of the task view in _CamelCase_. This is used as the
-identifier for installing the view and as the name for the R/Markdown file, e.g.,
+identifier for installing the view and as the name for the Markdown file, e.g.,
 `Econometrics.md`, and the auto-generated HTML file, e.g., `Econometrics.html`.
 Hence, it should be not too long (typically 1-3 words) and contain no special
 characters like spaces, hyphens, etc.
@@ -169,7 +169,7 @@ described above. Simply using
 ctv:::ctv_xml_to_rmd("MyView.ctv")
 ```
 
-will create a `MyView.Rmd` file from the `.ctv` file. This should do most necessary
+will create a `MyView.md` file from the `.ctv` file. This should do most necessary
 transformations automatically. However, it is recommended to thoroughly check
-the resulting R/Markdown file and improve it as appropriate.
+the resulting file and improve it as appropriate.
 
