@@ -30,7 +30,8 @@ text and a handful of special R functions are provided to link to CRAN
 packages, other task views, GitHub projects, etc.
 
 > In `ctv` versions prior to 0.9-0 (released in late 2021), task views used
-> an XML-based format (introduced in [Zeileis 2005, _R News_, **5**(1), 39-40](https://www.r-project.org/doc/Rnews/Rnews_2005-1.pdf)).
+> an XML-based format (introduced in Zeileis 2005, _R News_, **5**(1), 39-40
+> [[PDF](https://www.R-project.org/doc/Rnews/Rnews_2005-1.pdf)]).
 > See below for converting task views from the old XML-based format to the
 > new R/Markdown format.
 
@@ -47,7 +48,7 @@ maintainer: Achim Zeileis, Laurent Berge, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
 version: 2021-09-27
 ---
-```
+
 Base R ships with a lot of functionality useful for computational econometrics,
 in particular in the stats package. This functionality is complemented by many
 packages on CRAN, a brief overview is given below. There is also a considerable
@@ -62,8 +63,9 @@ package like `r pkg("ivreg")` or an important "core" package like
 `r pkg("AER", priority = "core")`.
 
 ### Links
-- [Journal of Statistical SoftwareL Econometrics in R](https://www.jstatsoft.org/v27/)
+- [Journal of Statistical Software: Econometrics in R](https://www.jstatsoft.org/v27/)
 - [The Title of a Relevant Homepage](http://path/to/homepage/)
+```
 
 The document structure consists of three main blocks: (1) Some metainformation
 is given in the YAML header at the beginning (separated by lines with `---`),
