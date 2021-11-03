@@ -7,11 +7,11 @@ content (e.g., packages or links). To facilitate such contributions each task vi
 the e-mail address of the principal maintainer as well as a link to the associated
 GitHub repository.
 
-Thus, to make a contribution:
+Thus, to make a contribution either:
 
-* **Send an e-mail** the principal maintainer.
+* **Send an e-mail** to the principal maintainer.
 
-Or as a GitHub user:
+Or as a GitHub user employ one of the following alternatives:
 
 * **Raise an issue** in the GitHub repository.
 * **Provide a pull request** in the GitHub repository.
