@@ -1,4 +1,4 @@
-## Contributing to a task view
+## Contributing to a CRAN task view
 
 Contributions to task views from members of the community are very welcome and in fact
 crucial for keeping the task views up to date. Typical contributions would be improvements
@@ -9,9 +9,9 @@ GitHub repository.
 
 Thus, to make a contribution:
 
-* Simply e-mail to the principal maintainer.
+* **Send an e-mail** the principal maintainer.
 
-Or if you are a GitHub user you can also:
+Or as a GitHub user:
 
-* Raise an issue in the GitHub repository.
-* Providing a pull request in the GitHub repository.
+* **Raise an issue** in the GitHub repository.
+* **Provide a pull request** in the GitHub repository.
