@@ -35,41 +35,16 @@ a new one.
 
 ### CRAN Task View Editors
 
-* [Roger Bivand](https://github.com/rsbivand)
-* [Dirk Eddelbuettel](https://github.com/eddelbuettel)
-* [Heather Turner](https://github.com/hturner)
-* [Achim Zeileis](https://github.com/zeileis)
+* [<img src="https://avatars.githubusercontent.com/u/10198404?v=4" alt="@rsbivand" size="32" height="32" width="32" data-view-component="true" class="avatar circle"></img> Roger Bivand](https://github.com/rsbivand)
+* [<img src="https://avatars.githubusercontent.com/u/673121?v=4" alt="@eddelbuettel" size="32" height="32" width="32" data-view-component="true" class="avatar circle"></img> Dirk Eddelbuettel](https://github.com/eddelbuettel)
+* [<img src="https://avatars.githubusercontent.com/u/18192913?v=4" alt="@rociojoo" size="32" height="32" width="32" data-view-component="true" class="avatar circle"></img> Rocío Joo](https://github.com/rociojoo)
+* [<img src="https://avatars.githubusercontent.com/u/3343008?v=4" alt="@hturner" size="32" height="32" width="32" data-view-component="true" class="avatar circle"></img> Heather Turner](https://github.com/hturner)
+* [<img src="https://avatars.githubusercontent.com/u/61125774?v=4" alt="@zeileis" size="32" height="32" width="32" data-view-component="true" class="avatar circle"></img> Achim Zeileis](https://github.com/zeileis)
 
-**FIXME:** Which additional information to add here? Just GitHub handle?
-With text or icon? Affiliation? Personal web page?
-
-* RSB: Do we want contact with the group as such - that would suggest issues in this repo for this group?
-  Or is it OK for contact to go randomly to an editor? If the former, no handles here at all, or maybe just
-  `*@R-project.org`?  
-  Z: Typically, contact will be with the group as such, i.e., through issues in this repo, especially for
-  proposing new task views which should be described in [Proposal](Proposal.md). However, as we think about
-  this like an editorial board we would typically also list the affiliation for a scientific journal along
-  with potentially further information (see e.g., [JSS Editorial Team](https://www.jstatsoft.org/about/editorialTeam)).
-  And although we start now with a team of editors that are all R Foundation members, this will change as
-  we will try to involve some younger and more diverse CTV Editors as well.
-  
-* RSB: In any case, contact about the contents of individual TVs should be by issue/PR for that specific TV.  
-  Z: Yes, completely agree. Would you mind outlining a potential workflow with in [Contributing](Contributing.md)?
 
 ### Available task views
 
 * [Econometrics](https://github.com/cran-task-views/Econometrics/)
-
-**FIXME:** Maintain this list manually? Or generate it automatically? If so, how?
-
-* RSB: Do we expect all TVs to be hosted by this organisation (no?)?  
-  Z: Yes. All official task views should be hosted by this organization.
-
-* RSB: I feel that as TVs convert, this group may need to offer help to get the TV maintainers
-  feeling confident, but the more they take responsibility the better.  
-  Z: Yes, we should help them getting started. Also we will push for teams of maintainers
-  (rather than a single person) so that ideally at least one person in the maintainer team
-  would be more confident with the technical/GitHub aspects.
 
 
 ### How to contribute?
@@ -80,5 +55,8 @@ For contributing to an existing task view please go to the respective repository
 For proposing a new task view please follow the guidelines in [Proposal](Proposal.md).
 
 Technical documentation about the task view format is in [Documentation](Documentation.md).
+
+For other questions regarding CRAN task views as a whole, please open an issue in this repository.
+For contact via e-mail, please write to `Achim.Zeileis@R-project.org`.
 
 All contributions must be made under the following [Code of conduct](CodeOfConduct.md).
