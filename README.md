@@ -35,15 +35,11 @@ a new one.
 
 ### CRAN Task View Editors
 
-[<img src="https://avatars.githubusercontent.com/u/10198404?v=4" alt="@rsbivand" size="32" height="32" width="32"></img> Roger Bivand](https://github.com/rsbivand)
-
-[<img src="https://avatars.githubusercontent.com/u/673121?v=4" alt="@eddelbuettel" size="32" height="32" width="32"></img> Dirk Eddelbuettel](https://github.com/eddelbuettel)
-
-[<img src="https://avatars.githubusercontent.com/u/18192913?v=4" alt="@rociojoo" size="32" height="32" width="32"></img> Rocío Joo](https://github.com/rociojoo)
-
-[<img src="https://avatars.githubusercontent.com/u/3343008?v=4" alt="@hturner" size="32" height="32" width="32"></img> Heather Turner](https://github.com/hturner)
-
-[<img src="https://avatars.githubusercontent.com/u/61125774?v=4" alt="@zeileis" size="32" height="32" width="32"></img> Achim Zeileis](https://github.com/zeileis)
+* [Roger Bivand](https://github.com/rsbivand)
+* [Dirk Eddelbuettel](https://github.com/eddelbuettel)
+* [RocÃ­o Joo](https://github.com/rociojoo)
+* [Heather Turner](https://github.com/hturner)
+* [Achim Zeileis](https://github.com/zeileis)
 
 
 ### Available task views
