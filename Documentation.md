@@ -37,9 +37,9 @@ excerpt from the `Econometrics` task view which is hosted on CRAN at
 ---
 name: Econometrics
 topic: Econometrics
-maintainer: Achim Zeileis, Laurent Berge, Grant McDermott, Kevin Tappe
+maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2021-09-27
+version: 2021-12-02
 ---
 
 Base R ships with a lot of functionality useful for computational econometrics,
