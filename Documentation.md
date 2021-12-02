@@ -1,10 +1,3 @@
----
-title: Writing CRAN Task Views
-author: Achim Zeileis, CRAN Task View Editors
-date: 2021-09-27
----
-
-
 ## Overview
 
 CRAN task views aim to provide some guidance which packages on the Comprehensive
