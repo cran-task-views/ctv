@@ -1,7 +1,7 @@
 ## Overview
 
-CRAN task views aim to provide some guidance which packages on the Comprehensive
-R Archive Network (CRAN) at <https://CRAN.R-project.org/> are relevant for tasks
+CRAN task views aim to provide some guidance which packages on the [Comprehensive
+R Archive Network (CRAN)](https://CRAN.R-project.org/) are relevant for tasks
 related to a certain topic. They give a brief overview of the included packages
 and can be automatically installed using the
 [ctv](https://CRAN.R-project.org/package=ctv) package. The views are intended to
@@ -10,14 +10,14 @@ included (or excluded) - and they are not meant to endorse the "best" packages
 for a given task.
 
 For more details on how task views are maintained and how to contribute to
-task views, see <https://github.com/cran-task-views/ctv/>. In the following
-the details of the R/Markdown format for CRAN task views is presented.
+task views, see the [ctv GitHub project](https://github.com/cran-task-views/ctv/).
+In the following the details of the R/Markdown format for CRAN task views is presented.
 
 
 ## Format
 
 The file format for CRAN task views leverages the R/Markdown format
-(Xie, Allaire, Grolemund 2019, see <https://bookdown.org/yihui/rmarkdown/>)
+(see [Xie, Allaire, Grolemund 2019](https://bookdown.org/yihui/rmarkdown/))
 so that standard Markdown can be used for formatting and structuring the
 text and a handful of special R functions are provided to link to CRAN
 packages, other task views, GitHub projects, etc.
@@ -90,8 +90,8 @@ mailing list shared by the co-maintainers.
 * `version` is specified by a date in ISO 8601 format (yyyy-mm-dd).
 
 The information in the main text should be a short description of the packages,
-explaining which packages are useful for which tasks. Standard Markdown format
-(see <https://en.wikipedia.org/wiki/Markdown> for an overview) can be used to
+explaining which packages are useful for which tasks.
+[Standard Markdown format](https://en.wikipedia.org/wiki/Markdown) can be used to
 structure the document with sections, itemized and enumerated lists, bold face,
 italics, etc. Additionally, short R code chunks with special functions are used for linking
 to resources in the same repository: `pkg()` for normal packages,
@@ -107,8 +107,6 @@ Moreover, code projects in other repositories can be linked by using the functio
 * `bioc()` for Bioconductor packages at <https://www.Bioconductor.org/>.
 * `github()` for GitHub projects at <https://www.GitHub.com/>.
 * `rforge()` for R-Forge projects at <https://R-Forge.R-project.org/>.
-* `gcode()` for projects in the Google Code archive at <https://Code.Google.com/archive/>.
-* `ohat()` for Omegahat packages at <http://www.Omegahat.net/>.
 
 Note however that CRAN task views are intended mainly for packages on CRAN (as the
 name conveys). Thus, links to other repositories should be used for _important_
