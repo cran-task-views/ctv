@@ -19,7 +19,7 @@ install.packages("ctv")
 ```
 
 and then the views can be installed via `install.views()` or `update.views()`
-(where the latter only installs those packages are not installed and up-to-date),
+(where the latter only installs those packages which are not installed and up-to-date),
 e.g.,
 
 ```
