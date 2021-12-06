@@ -9,9 +9,10 @@ have a sharp focus so that it is sufficiently clear which packages should be
 included (or excluded) - and they are not meant to endorse the "best" packages
 for a given task.
 
-For more details on how task views are maintained and how to contribute to
-task views, see the [ctv GitHub project](https://github.com/cran-task-views/ctv/).
-In the following the details of the R/Markdown format for CRAN task views is presented.
+For more details on how to use task views and how to contribute to them, see the
+[ctv GitHub project](https://github.com/cran-task-views/ctv/).
+In the following the technical details of the R/Markdown format for CRAN task views
+is presented which is intended primarily for task view maintainers.
 
 
 ## Format
@@ -162,5 +163,15 @@ ctv:::ctv_xml_to_rmd("MyView.ctv")
 
 will create a `MyView.md` file from the `.ctv` file. This should do most necessary
 transformations automatically. However, it is recommended to thoroughly check
-the resulting file and improve it as appropriate.
+the resulting file and improve it as appropriate. To check the resulting HTML output
+use
 
+```
+ctv2html("MyView.md")
+browseURL("MyView.html")
+```
+
+Note that one important difference between the XML and R/Markdown format is that
+the "package list" does not need to be listed separately anymore, it is auto-generated
+from the "info" text. Similarly, the "links" just need to provide those links that
+are not auto-generated from the "info" text.
