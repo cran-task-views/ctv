@@ -61,7 +61,7 @@ representative at an online or offline event.
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the CRAN Task View Editors either publicly by
 [opening an issue](https://github.com/cran-task-views/ctv/issues) in the `ctv`
-repository or private by e-mail to `Achim.Zeileis@R-project.org`.
+repository or privately by e-mail to `CRAN-task-views@R-project.org`.
 All complaints will be reviewed and investigated promptly and fairly.
 
 All CRAN Task View Editors are obligated to respect the privacy and security of the

@@ -59,6 +59,6 @@ For proposing a new task view please follow the guidelines in [Proposal](Proposa
 Technical documentation about the task view format is in [Documentation](Documentation.md).
 
 For other questions regarding CRAN task views as a whole, please open an issue in this repository.
-For contact via e-mail, please write to `Achim.Zeileis@R-project.org`.
+For contact via e-mail, please write to `CRAN-task-views@R-project.org`.
 
 All contributions must be made under the following [Code of conduct](CodeOfConduct.md).
