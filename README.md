@@ -61,4 +61,4 @@ Technical documentation about the task view format is in [Documentation](Documen
 For other questions regarding CRAN task views as a whole, please open an issue in this repository.
 For contact via e-mail, please write to `CRAN-task-views@R-project.org`.
 
-All contributions must be made under the following [Code of conduct](CodeOfConduct.md).
+All contributions must be made under the [Code of conduct](CodeOfConduct.md).
