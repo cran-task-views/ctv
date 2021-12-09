@@ -1,9 +1,9 @@
 ## CRAN Task View Initiative <img src="https://avatars.githubusercontent.com/u/61115545" align="right" alt="CRAN Task Views logo" width="180" />
 
-CRAN task views aim to provide some guidance which packages on the Comprehensive
-R Archive Network (CRAN) at <https://CRAN.R-project.org/> are relevant for tasks
-related to a certain topic. They give a brief overview of the included packages
-and can be automatically installed using the
+CRAN task views aim to provide some guidance which packages on the
+[Comprehensive R Archive Network (CRAN)](https://CRAN.R-project.org/)
+are relevant for tasks related to a certain topic. They give a brief
+overview of the included packages and can be automatically installed using the
 [ctv](https://CRAN.R-project.org/package=ctv) package. The views are intended to
 have a sharp focus so that it is sufficiently clear which packages should be
 included (or excluded) - and they are not meant to endorse the "best" packages
@@ -47,17 +47,18 @@ a new one.
 
 ### Available task views
 
-* [Econometrics](https://github.com/cran-task-views/Econometrics/)
+* Econometrics: [CRAN page](https://CRAN.R-project.org/view=Econometrics), [GitHub source](https://github.com/cran-task-views/Econometrics/)
 
 
 ### How to contribute?
 
-For contributing to an existing task view please go to the respective repository
+For contributing to an existing task view please go to the respective source repository
 (see links above) and follow the guidelines in [Contributing](Contributing.md).
 
 For proposing a new task view please follow the guidelines in [Proposal](Proposal.md).
 
 Technical documentation about the task view format is in [Documentation](Documentation.md).
+Some more details can be found R-Forge page of the [ctv package](https://ctv.R-Forge.R-project.org/).
 
 For other questions regarding CRAN task views as a whole, please open an issue in this repository.
 For contact via e-mail, please write to `CRAN-task-views@R-project.org`.
