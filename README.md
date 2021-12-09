@@ -1,6 +1,4 @@
-## CRAN Task View Initiative <img src="https://avatars.githubusercontent.com/u/61115545" align="right" alt="CRAN Task Views logo" width="200" />
-
-### About
+## CRAN Task View Initiative <img src="https://avatars.githubusercontent.com/u/61115545" align="right" alt="CRAN Task Views logo" width="180" />
 
 CRAN task views aim to provide some guidance which packages on the Comprehensive
 R Archive Network (CRAN) at <https://CRAN.R-project.org/> are relevant for tasks
@@ -10,6 +8,9 @@ and can be automatically installed using the
 have a sharp focus so that it is sufficiently clear which packages should be
 included (or excluded) - and they are not meant to endorse the "best" packages
 for a given task.
+
+
+### Installation
 
 To automatically install the views, the [ctv](https://CRAN.R-project.org/package=ctv)
 package needs to be installed, e.g., via
