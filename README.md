@@ -47,12 +47,12 @@ a new one.
 
 ### Available task views
 
-* Econometrics: [CRAN page](https://CRAN.R-project.org/view=Econometrics), [GitHub source](https://github.com/cran-task-views/Econometrics/)
+* [Econometrics](https://github.com/cran-task-views/Econometrics/)
 
 
 ### How to contribute?
 
-For contributing to an existing task view please go to the respective source repository
+For contributing to an existing task view please go to the respective repository
 (see links above) and follow the guidelines in [Contributing](Contributing.md).
 
 For proposing a new task view please follow the guidelines in [Proposal](Proposal.md).
