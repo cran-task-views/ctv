@@ -106,7 +106,7 @@ packages should be installed (with all their dependencies).
 Moreover, code projects in other repositories can be linked by using the functions:
 
 * `bioc()` for Bioconductor packages at <https://www.Bioconductor.org/>.
-* `github()` for GitHub projects at <https://GitHub.com/>.
+* `github()` for GitHub projects at <https://github.com/>.
 * `rforge()` for R-Forge projects at <https://R-Forge.R-project.org/>.
 
 Note however that CRAN task views are intended mainly for packages on CRAN (as the
