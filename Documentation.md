@@ -134,13 +134,13 @@ R and printed. This should display the metainformation and the list of packages.
 Subsequently, it can be rendered to an HTML page and displayed in a browser for
 checking whether the information text is processed correctly.
 
-For illustration, the code below employs the `Econometrics.ctv` file shipped
+For illustration, the code below employs the `Econometrics.md` file shipped
 within the `ctv` package. Instead a local `MyNewView.md` with resulting
 `MyNewView.html` could be used as well.
 
 ```
 library("ctv")
-x <- read.ctv(system.file("ctv", "Econometrics.ctv", package = "ctv"))
+x <- read.ctv(system.file("ctv", "Econometrics.md", package = "ctv"))
 print(x)
 ctv2html(x)
 browseURL("Econometrics.html")
