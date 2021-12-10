@@ -38,7 +38,7 @@ excerpt from the `Econometrics` task view which is hosted on CRAN at
 ---
 name: Econometrics
 topic: Econometrics
-maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
+maintainer: Achim Zeileis, Grant McDermott
 email: Achim.Zeileis@R-project.org
 version: 2021-12-02
 ---
