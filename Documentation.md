@@ -90,6 +90,11 @@ mailing list shared by the co-maintainers.
 
 * `version` is specified by a date in ISO 8601 format (yyyy-mm-dd).
 
+* Additionally, there are optional elements `source` which can be used to link
+to the source repository (e.g., on GitHub) and `url` for the URL of the
+published task view, respectively. The latter is inserted automatically for the
+official task views on CRAN.
+
 The information in the main text should be a short description of the packages,
 explaining which packages are useful for which tasks.
 [Standard Markdown format](https://en.wikipedia.org/wiki/Markdown) can be used to
