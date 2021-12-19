@@ -48,6 +48,7 @@ a new one.
 ### Available task views
 
 * [Econometrics](https://github.com/cran-task-views/Econometrics/)
+* [ModelDeployment](https://github.com/cran-task-views/ModelDeployment/)
 
 
 ### How to contribute?
