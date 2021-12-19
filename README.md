@@ -47,6 +47,7 @@ a new one.
 
 ### Available task views
 
+* [Databases](https://github.com/cran-task-views/Databases)
 * [Econometrics](https://github.com/cran-task-views/Econometrics/)
 * [ModelDeployment](https://github.com/cran-task-views/ModelDeployment/)
 
