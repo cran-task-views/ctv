@@ -13,6 +13,7 @@ All contributions must be made under the [Code of conduct](CodeOfConduct.md).
 * _Scope:_ A task view should be on a topic with a rather clear scope that should neither be too narrow nor too wide.
 * _Packages:_ The goal is not to cover "every package" remotely related to the topic but rather the packages that clearly fall
   within the scope. The coverage should be similar to what an (introductory) text book on the topic would cover.
+  Non-CRAN packages may also be included but the focus of CRAN task views should be packages on CRAN (as the name conveys).
 * _Ratings:_ Task views should _not_ rate the packages or endorse certain "best" packages but rather give an overview
   of what is available. A bit of emphasis to the more important packages can be given in two ways: (1) The most important
   packages can be flagged as "core" packages. (2) In the information text the more important packages can be listed first
