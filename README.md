@@ -47,9 +47,8 @@ a new one.
 
 ### Available task views
 
-<b><span style="color:red">Note: The available task view sources are currently transferred from R-Forge to GitHub.
-The process is expected to be completed by the end of January 2022.</span></b>
-
+**_Note: The available task view sources are currently transferred from R-Forge to GitHub.
+The process is expected to be completed by the end of January 2022._**
 
 * [Databases](https://github.com/cran-task-views/Databases/)
 * [Econometrics](https://github.com/cran-task-views/Econometrics/)
@@ -62,7 +61,7 @@ For contributing to an existing task view please go to the respective repository
 (see links above) and follow the guidelines in [Contributing](Contributing.md).
 
 For proposing a new task view please follow the guidelines in [Proposal](Proposal.md).
-<b><span style="color:red">Note: Submissions of new task views will be considered starting from February 2022.</span></b>
+**_Note: Submissions of new task views will be considered starting from February 2022._**
 
 Technical documentation about the task view format is in [Documentation](Documentation.md).
 Some more details can be found R-Forge page of the [ctv package](https://ctv.R-Forge.R-project.org/).
