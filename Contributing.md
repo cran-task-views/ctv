@@ -13,3 +13,21 @@ which is most convenient for you:
 * **Send an e-mail** to the principal maintainer.
 * **Raise an issue** in the GitHub repository.
 * **Provide a pull request** in the GitHub repository.
+
+When using the last alternative, ensure that the task view is properly 
+formatted by checking the resulting HTML before the pull request:
+
+```
+ctv2html("MyView.md")
+browseURL("MyView.html")
+```
+
+Also check that the info and packagelist sections are consistent with each 
+other and that all packages are available from the repository with:
+
+```
+check_ctv_packages("MyView.md")
+```
+
+Further information about the CRAN task view format is available in the
+[Documentation](https://github.com/tuxette/ctv/blob/main/Documentation.md).
