@@ -14,20 +14,24 @@ which is most convenient for you:
 * **Raise an issue** in the GitHub repository.
 * **Provide a pull request** in the GitHub repository.
 
-When using the last alternative, ensure that the task view is properly 
-formatted by checking the resulting HTML before the pull request:
+
+## Checking pull requests
+
+Before making a pull request for a task view file (say `MyView.md`) please
+ensure that the resulting HTML page is properly formatted:
 
 ```
+library("ctv")
 ctv2html("MyView.md")
 browseURL("MyView.html")
 ```
 
-Also check that the info and packagelist sections are consistent with each 
-other and that all packages are available from the repository with:
+Also check that the information text and the package list are consistent and
+that all packages are available from CRAN:
 
 ```
 check_ctv_packages("MyView.md")
 ```
 
 Further information about the CRAN task view format is available in the
-[Documentation](https://github.com/tuxette/ctv/blob/main/Documentation.md).
+corresponding [Documentation](Documentation.md).
