@@ -40,9 +40,10 @@ a new one.
 * [Dirk Eddelbuettel](https://github.com/eddelbuettel)
 * [Rocío Joo](https://github.com/rociojoo)
 * [David Meyer](https://github.com/davidjohannesmeyer)
-* [Heather Turner](https://github.com/hturner)
 * [Nathalie Vialaneix](https://github.com/tuxette)
 * [Achim Zeileis](https://github.com/zeileis)
+
+Former contributors include: Henrik Bengtsson, Heather Turner.
 
 
 ### Available task views
