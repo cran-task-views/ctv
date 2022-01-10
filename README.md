@@ -36,6 +36,8 @@ a new one.
 
 ### CRAN Task View Editors
 
+The current team is:
+
 * [Roger Bivand](https://github.com/rsbivand)
 * [Dirk Eddelbuettel](https://github.com/eddelbuettel)
 * [Rocío Joo](https://github.com/rociojoo)
