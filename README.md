@@ -15,7 +15,7 @@ for a given task.
 To automatically install the views, the [ctv](https://CRAN.R-project.org/package=ctv)
 package needs to be installed, e.g., via
 
-```
+```r
 install.packages("ctv")
 ```
 
@@ -23,7 +23,7 @@ and then the views can be installed via `install.views()` or `update.views()`
 (where the latter only installs those packages which are not installed and up-to-date),
 e.g.,
 
-```
+```r
 ctv::install.views("Econometrics")
 ctv::update.views("Econometrics")
 ```
