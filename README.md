@@ -57,6 +57,7 @@ The process is expected to be completed by the end of January 2022._**
 * [Econometrics](https://github.com/cran-task-views/Econometrics/)
 * [Hydrology](https://github.com/cran-task-views/Hydrology/)
 * [ModelDeployment](https://github.com/cran-task-views/ModelDeployment/)
+* [OfficialStatistics](https://github.com/cran-task-views/OfficialStatistics/)
 * [SpatioTemporal](https://github.com/cran-task-views/SpatioTemporal/)
 * [WebTechnologies](https://github.com/cran-task-views/WebTechnologies/)
 
