@@ -53,6 +53,7 @@ Former contributors include: Henrik Bengtsson, Heather Turner.
 **_Note: The available task view sources are currently transferred from R-Forge to GitHub.
 The process is expected to be completed by the end of January 2022._**
 
+* [ClinicalTrials](https://github.com/cran-task-views/ClinicalTrials/)
 * [Databases](https://github.com/cran-task-views/Databases/)
 * [Econometrics](https://github.com/cran-task-views/Econometrics/)
 * [Hydrology](https://github.com/cran-task-views/Hydrology/)
