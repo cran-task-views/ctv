@@ -60,6 +60,7 @@ The process is expected to be completed by the end of January 2022._**
 * [ModelDeployment](https://github.com/cran-task-views/ModelDeployment/)
 * [OfficialStatistics](https://github.com/cran-task-views/OfficialStatistics/)
 * [SpatioTemporal](https://github.com/cran-task-views/SpatioTemporal/)
+* [Tracking](https://github.com/cran-task-views/Tracking/)
 * [WebTechnologies](https://github.com/cran-task-views/WebTechnologies/)
 
 
