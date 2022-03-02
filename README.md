@@ -61,6 +61,7 @@ The process is expected to be completed by the end of January 2022._**
 * [OfficialStatistics](https://github.com/cran-task-views/OfficialStatistics/)
 * [Pharmacokinetics](https://github.com/cran-task-views/Pharmacokinetics/)
 * [SpatioTemporal](https://github.com/cran-task-views/SpatioTemporal/)
+* [TeachingStatistics](https://github.com/cran-task-views/TeachingStatistics/)
 * [Tracking](https://github.com/cran-task-views/Tracking/)
 * [WebTechnologies](https://github.com/cran-task-views/WebTechnologies/)
 
