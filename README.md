@@ -60,6 +60,7 @@ The process is expected to be completed in March 2022._**
 * [Econometrics](https://github.com/cran-task-views/Econometrics/)
 * [Hydrology](https://github.com/cran-task-views/Hydrology/)
 * [MachineLearning](https://github.com/cran-task-views/MachineLearning/)
+* [MissingData](https://github.com/cran-task-views/MissingData/)
 * [ModelDeployment](https://github.com/cran-task-views/ModelDeployment/)
 * [OfficialStatistics](https://github.com/cran-task-views/OfficialStatistics/)
 * [Pharmacokinetics](https://github.com/cran-task-views/Pharmacokinetics/)
