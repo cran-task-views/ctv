@@ -54,6 +54,7 @@ Former contributors include: Henrik Bengtsson, Heather Turner.
 The process is expected to be completed by the end of January 2022._**
 
 * [ClinicalTrials](https://github.com/cran-task-views/ClinicalTrials/)
+* [Cluster](https://github.com/cran-task-views/Cluster/)
 * [Databases](https://github.com/cran-task-views/Databases/)
 * [Econometrics](https://github.com/cran-task-views/Econometrics/)
 * [Hydrology](https://github.com/cran-task-views/Hydrology/)
