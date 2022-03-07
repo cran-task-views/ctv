@@ -60,6 +60,7 @@ The process is expected to be completed in March 2022._**
 * [Databases](https://github.com/cran-task-views/Databases/)
 * [Econometrics](https://github.com/cran-task-views/Econometrics/)
 * [Finance](https://github.com/cran-task-views/Finance/)
+* [HighPerformanceComputing](https://github.com/cran-task-views/HighPerformanceComputing/)
 * [Hydrology](https://github.com/cran-task-views/Hydrology/)
 * [MachineLearning](https://github.com/cran-task-views/MachineLearning/)
 * [MissingData](https://github.com/cran-task-views/MissingData/)
