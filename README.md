@@ -54,6 +54,7 @@ Former contributors include: Henrik Bengtsson, Heather Turner.
 The process is expected to be completed in March 2022._**
 
 * [Bayesian](https://github.com/cran-task-views/Bayesian/)
+* [ChemPhys](https://github.com/cran-task-views/ChemPhys/)
 * [ClinicalTrials](https://github.com/cran-task-views/ClinicalTrials/)
 * [Cluster](https://github.com/cran-task-views/Cluster/)
 * [Databases](https://github.com/cran-task-views/Databases/)
