@@ -48,6 +48,22 @@ The current team is:
 Former contributors include: Henrik Bengtsson, Heather Turner.
 
 
+### How to contribute?
+
+For contributing to an existing task view please go to the respective repository
+(see links above) and follow the guidelines in [Contributing](Contributing.md).
+
+For proposing a new task view please follow the guidelines in [Proposal](Proposal.md).
+
+Technical documentation about the task view format is in [Documentation](Documentation.md).
+Some more details can be found R-Forge page of the [ctv package](https://ctv.R-Forge.R-project.org/).
+
+For other questions regarding CRAN task views as a whole, please open an issue in this repository.
+For contact via e-mail, please write to `CRAN-task-views@R-project.org`.
+
+All contributions must be made under the [Code of conduct](CodeOfConduct.md).
+
+
 ### Available task views
 
 **_Note: The available task view sources are currently transferred from R-Forge to GitHub.
@@ -66,6 +82,7 @@ The process is expected to be completed in March 2022._**
 * [HighPerformanceComputing](https://github.com/cran-task-views/HighPerformanceComputing/)
 * [Hydrology](https://github.com/cran-task-views/Hydrology/)
 * [MachineLearning](https://github.com/cran-task-views/MachineLearning/)
+* [MetaAnalysis](https://github.com/cran-task-views/MetaAnalysis/)
 * [MissingData](https://github.com/cran-task-views/MissingData/)
 * [ModelDeployment](https://github.com/cran-task-views/ModelDeployment/)
 * [OfficialStatistics](https://github.com/cran-task-views/OfficialStatistics/)
@@ -76,19 +93,3 @@ The process is expected to be completed in March 2022._**
 * [TimeSeries](https://github.com/cran-task-views/TimeSeries/)
 * [Tracking](https://github.com/cran-task-views/Tracking/)
 * [WebTechnologies](https://github.com/cran-task-views/WebTechnologies/)
-
-
-### How to contribute?
-
-For contributing to an existing task view please go to the respective repository
-(see links above) and follow the guidelines in [Contributing](Contributing.md).
-
-For proposing a new task view please follow the guidelines in [Proposal](Proposal.md).
-
-Technical documentation about the task view format is in [Documentation](Documentation.md).
-Some more details can be found R-Forge page of the [ctv package](https://ctv.R-Forge.R-project.org/).
-
-For other questions regarding CRAN task views as a whole, please open an issue in this repository.
-For contact via e-mail, please write to `CRAN-task-views@R-project.org`.
-
-All contributions must be made under the [Code of conduct](CodeOfConduct.md).
