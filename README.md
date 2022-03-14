@@ -75,6 +75,7 @@ The process is expected to be completed in March 2022._**
 * [Cluster](https://github.com/cran-task-views/Cluster/)
 * [Databases](https://github.com/cran-task-views/Databases/)
 * [DifferentialEquations](https://github.com/cran-task-views/DifferentialEquations/)
+* [Distributions](https://github.com/cran-task-views/Distributions/)
 * [Econometrics](https://github.com/cran-task-views/Econometrics/)
 * [Environmetrics](https://github.com/cran-task-views/Environmetrics/)
 * [ExperimentalDesign](https://github.com/cran-task-views/ExperimentalDesign/)
