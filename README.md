@@ -84,6 +84,7 @@ The process is expected to be completed in March 2022._**
 * [HighPerformanceComputing](https://github.com/cran-task-views/HighPerformanceComputing/)
 * [Hydrology](https://github.com/cran-task-views/Hydrology/)
 * [MachineLearning](https://github.com/cran-task-views/MachineLearning/)
+* [MedicalImaging](https://github.com/cran-task-views/MedicalImaging/)
 * [MetaAnalysis](https://github.com/cran-task-views/MetaAnalysis/)
 * [MissingData](https://github.com/cran-task-views/MissingData/)
 * [ModelDeployment](https://github.com/cran-task-views/ModelDeployment/)
