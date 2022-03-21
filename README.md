@@ -96,6 +96,7 @@ The process is expected to be completed in March 2022._**
 * [ReproducibleResearch](https://github.com/cran-task-views/ReproducibleResearch/)
 * [Spatial](https://github.com/cran-task-views/Spatial/)
 * [SpatioTemporal](https://github.com/cran-task-views/SpatioTemporal/)
+* [Survival](https://github.com/cran-task-views/Survival/)
 * [TeachingStatistics](https://github.com/cran-task-views/TeachingStatistics/)
 * [TimeSeries](https://github.com/cran-task-views/TimeSeries/)
 * [Tracking](https://github.com/cran-task-views/Tracking/)
