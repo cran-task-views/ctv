@@ -90,6 +90,7 @@ The process is expected to be completed in March 2022._**
 * [ModelDeployment](https://github.com/cran-task-views/ModelDeployment/)
 * [NumericalMathematics](https://github.com/cran-task-views/NumericalMathematics/)
 * [OfficialStatistics](https://github.com/cran-task-views/OfficialStatistics/)
+* [Optimization](https://github.com/cran-task-views/Optimization/)
 * [Pharmacokinetics](https://github.com/cran-task-views/Pharmacokinetics/)
 * [ReproducibleResearch](https://github.com/cran-task-views/ReproducibleResearch/)
 * [Spatial](https://github.com/cran-task-views/Spatial/)
