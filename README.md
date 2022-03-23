@@ -79,6 +79,7 @@ The process is expected to be completed in March 2022._**
 * [Econometrics](https://github.com/cran-task-views/Econometrics/)
 * [Environmetrics](https://github.com/cran-task-views/Environmetrics/)
 * [ExperimentalDesign](https://github.com/cran-task-views/ExperimentalDesign/)
+* [ExtremeValue](https://github.com/cran-task-views/ExtremeValue/)
 * [Finance](https://github.com/cran-task-views/Finance/)
 * [FunctionalData](https://github.com/cran-task-views/FunctionalData/)
 * [GraphicalModels](https://github.com/cran-task-views/GraphicalModels/)
