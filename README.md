@@ -90,6 +90,7 @@ The process is expected to be completed in March 2022._**
 * [MetaAnalysis](https://github.com/cran-task-views/MetaAnalysis/)
 * [MissingData](https://github.com/cran-task-views/MissingData/)
 * [ModelDeployment](https://github.com/cran-task-views/ModelDeployment/)
+* [NaturalLanguageProcessing](https://github.com/cran-task-views/NaturalLanguageProcessing/)
 * [NumericalMathematics](https://github.com/cran-task-views/NumericalMathematics/)
 * [OfficialStatistics](https://github.com/cran-task-views/OfficialStatistics/)
 * [Optimization](https://github.com/cran-task-views/Optimization/)
