@@ -97,6 +97,7 @@ The process is expected to be completed in March 2022._**
 * [Pharmacokinetics](https://github.com/cran-task-views/Pharmacokinetics/)
 * [Psychometrics](https://github.com/cran-task-views/Psychometrics/)
 * [ReproducibleResearch](https://github.com/cran-task-views/ReproducibleResearch/)
+* [Robust](https://github.com/cran-task-views/Robust/)
 * [Spatial](https://github.com/cran-task-views/Spatial/)
 * [SpatioTemporal](https://github.com/cran-task-views/SpatioTemporal/)
 * [Survival](https://github.com/cran-task-views/Survival/)
