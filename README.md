@@ -66,9 +66,6 @@ All contributions must be made under the [Code of conduct](CodeOfConduct.md).
 
 ### Available task views
 
-**_Note: The available task view sources are currently transferred from R-Forge to GitHub.
-The process is expected to be completed in March 2022._**
-
 * [Bayesian](https://github.com/cran-task-views/Bayesian/)
 * [ChemPhys](https://github.com/cran-task-views/ChemPhys/)
 * [ClinicalTrials](https://github.com/cran-task-views/ClinicalTrials/)
