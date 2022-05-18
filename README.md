@@ -97,6 +97,7 @@ All contributions must be made under the [Code of conduct](CodeOfConduct.md).
 * [Robust](https://github.com/cran-task-views/Robust/)
 * [Spatial](https://github.com/cran-task-views/Spatial/)
 * [SpatioTemporal](https://github.com/cran-task-views/SpatioTemporal/)
+* [SportsAnalytics](https://github.com/cran-task-views/SportsAnalytics/)
 * [Survival](https://github.com/cran-task-views/Survival/)
 * [TeachingStatistics](https://github.com/cran-task-views/TeachingStatistics/)
 * [TimeSeries](https://github.com/cran-task-views/TimeSeries/)
