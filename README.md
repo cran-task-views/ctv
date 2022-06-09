@@ -75,6 +75,7 @@ All contributions must be made under the [Code of conduct](CodeOfConduct.md).
 * [Distributions](https://github.com/cran-task-views/Distributions/)
 * [Econometrics](https://github.com/cran-task-views/Econometrics/)
 * [Environmetrics](https://github.com/cran-task-views/Environmetrics/)
+* [Epidemiology](https://github.com/cran-task-views/Epidemiology/)
 * [ExperimentalDesign](https://github.com/cran-task-views/ExperimentalDesign/)
 * [ExtremeValue](https://github.com/cran-task-views/ExtremeValue/)
 * [Finance](https://github.com/cran-task-views/Finance/)
