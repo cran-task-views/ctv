@@ -68,6 +68,7 @@ All contributions must be made under the [Code of conduct](CodeOfConduct.md).
 
 * [Bayesian](https://github.com/cran-task-views/Bayesian/)
 * [ChemPhys](https://github.com/cran-task-views/ChemPhys/)
+* [CausalInference](https://github.com/cran-task-views/CausalInference/)
 * [ClinicalTrials](https://github.com/cran-task-views/ClinicalTrials/)
 * [Cluster](https://github.com/cran-task-views/Cluster/)
 * [Databases](https://github.com/cran-task-views/Databases/)
