@@ -66,6 +66,7 @@ All contributions must be made under the [Code of conduct](CodeOfConduct.md).
 
 ### Available task views
 
+* [Agriculture](https://github.com/cran-task-views/Agriculture/)
 * [Bayesian](https://github.com/cran-task-views/Bayesian/)
 * [CausalInference](https://github.com/cran-task-views/CausalInference/)
 * [ChemPhys](https://github.com/cran-task-views/ChemPhys/)
