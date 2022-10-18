@@ -89,6 +89,7 @@ All contributions must be made under the [Code of conduct](CodeOfConduct.md).
 * [MedicalImaging](https://github.com/cran-task-views/MedicalImaging/)
 * [MetaAnalysis](https://github.com/cran-task-views/MetaAnalysis/)
 * [MissingData](https://github.com/cran-task-views/MissingData/)
+* [MixedModels](https://github.com/cran-task-views/MixedModels/)
 * [ModelDeployment](https://github.com/cran-task-views/ModelDeployment/)
 * [NaturalLanguageProcessing](https://github.com/cran-task-views/NaturalLanguageProcessing/)
 * [NumericalMathematics](https://github.com/cran-task-views/NumericalMathematics/)
