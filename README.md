@@ -96,6 +96,7 @@ All contributions must be made under the [Code of conduct](CodeOfConduct.md).
 * [OfficialStatistics](https://github.com/cran-task-views/OfficialStatistics/)
 * [Optimization](https://github.com/cran-task-views/Optimization/)
 * [Pharmacokinetics](https://github.com/cran-task-views/Pharmacokinetics/)
+* [Phylogenetics](https://github.com/cran-task-views/Phylogenetics/)
 * [Psychometrics](https://github.com/cran-task-views/Psychometrics/)
 * [ReproducibleResearch](https://github.com/cran-task-views/ReproducibleResearch/)
 * [Robust](https://github.com/cran-task-views/Robust/)
