@@ -1,0 +1,94 @@
+name: Validate cran task view
+description: Validate cran task view
+inputs:
+    user:
+      description: Github repository containing task view
+      required: false
+      default: 'cran-task-views'
+    task-view:
+      description: Name of task view. Should match GitHub user name, and the name of TaskView.md.
+      required: true
+    run-only:
+      description: Skip the setup step and run the test directly assuming that setup was run.
+      required: false
+      default: false
+runs:
+  using: 'composite'
+  steps:
+    - if: inputs.run-only != 'true'
+      uses: actions/checkout@v3
+
+    - if: inputs.run-only != 'true'
+      uses: r-lib/actions/setup-r@v2
+
+    - name: Install apt packages (Linux)
+      if: runner.os == 'Linux' && inputs.run-only != 'true'
+      run: |
+        sudo apt-get install libcurl4-openssl-dev
+      shell: bash
+
+    - if: inputs.run-only != 'true'
+      uses: r-lib/actions/setup-pandoc@v2
+
+    - if: inputs.run-only != 'true'
+      name: Cache R packages
+      uses: actions/cache@v3
+      with:
+        path: ${{ env.R_LIBS_USER }}
+        key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
+        restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
+
+    - if: inputs.run-only != 'true'
+      name: Install R packages
+      run: |
+        install.packages("ctv")
+        install.packages("knitr")
+        install.packages("rmarkdown")
+        install.packages("RCurl")
+      shell: Rscript {0}
+
+    - name: ctv2html
+      run: |
+        ctv::ctv2html(paste0(basename(getwd()), ".md"))
+      shell: Rscript {0}
+
+    - name: check_ctv_packages
+      run: |
+        result <- ctv::check_ctv_packages(paste0(basename(getwd()), ".md"))
+        exceptArchive <- result[-4]
+        failures <- lengths(exceptArchive) > 0
+        if (any(failures)) {
+          print(result[failures])
+          message("\n\n\n\n") # "Stop" command sometimes appears early
+          stop("See errors identified above")
+        }
+
+        archived <- result[[4]]
+        if (length(archived)) {
+          previousArchive <- ctv::check_ctv_packages(
+           paste0("https://raw.githubusercontent.com/${{ inputs.user }}/",
+           basename(getwd()), "/main/", basename(getwd()), ".md"
+          ))[["Packages in packagelist but archived on CRAN"]]
+          newArchives <- setdiff(archived, previousArchive)
+          if (length(newArchives)) {
+              stop(
+                "Adding archived packages:\n - ",
+                paste0(newArchives, collapse = "\n - ")
+              )
+          }
+        }
+      shell: Rscript {0}
+
+    - name: check other links
+      if: success() || failure()
+      run: |
+        links <- ctv::read.ctv(paste0(basename(getwd()), ".md"))$otherlinks
+        urls <- sub(".*href=\"(.*)\".*", "\\1", links)
+        ok <- RCurl::url.exists(urls)
+        if (any(!ok)) {
+          message(paste0("::warning file=", basename(getwd()), ".md::Inoperational links"))
+          stop("URLs did not return OK status:\n - ",
+              paste0(names(ok)[!ok], collapse = "\n - ")
+          )
+        }
+      shell: Rscript {0}

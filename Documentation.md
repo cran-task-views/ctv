@@ -239,3 +239,13 @@ Note that one important difference between the XML and R/Markdown format is that
 the "package list" does not need to be listed separately anymore, it is auto-generated
 from the "info" text. Similarly, the "links" just need to provide those links that
 are not auto-generated from the "info" text.
+
+
+## Using "Validate Task View" github action
+
+The CRAN Task View Initiative provides an action to automatically check the
+CTV conversion to HTML and to also automatically perform the checks included
+in `ctv::check_ctv_packages`. It can be automatically installed following the 
+[instructions of the directory "action"](https://github.com/cran-task-views/ctv/blob/main/action/README.md).
+In its current version, it is automatically run at push or merge requests 
+performed in the main branch on the task view file.
