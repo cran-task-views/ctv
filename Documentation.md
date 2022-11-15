@@ -241,11 +241,17 @@ from the "info" text. Similarly, the "links" just need to provide those links th
 are not auto-generated from the "info" text.
 
 
-## Using "Validate Task View" github action
+## Using GitHub Actions to validate task views
 
-The CRAN Task View Initiative provides an action to automatically check the
-CTV conversion to HTML and to also automatically perform the checks included
-in `ctv::check_ctv_packages`. It can be automatically installed following the 
-[instructions of the directory "action"](https://github.com/cran-task-views/ctv/blob/main/action/README.md).
+The functions recommended above for validating that a task view can be processed
+correctly, `ctv2html()` and `check_ctv_packages()`, can also be run automatically
+using a GitHub Action provided by the CRAN Task View Initiative. The action checks
+that the HTML conversions works without error, its links work correctly, and that
+no new archived packages were introduced in the task view.
+
+The GitHub Action can be installed as described in the
+[action/README](https://github.com/cran-task-views/ctv/blob/main/action/README.md).
 In its current version, it is automatically run at push or merge requests 
-performed in the main branch on the task view file.
+performed in the main branch of the task view file. More general guidance about
+[GitHub Actions](https://github.com/features/actions) can be found in the the
+GitHub documentation.

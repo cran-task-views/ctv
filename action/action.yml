@@ -1,8 +1,8 @@
-name: Validate cran task view
-description: Validate cran task view
+name: Validate CRAN Task View
+description: Validate CRAN Task View
 inputs:
     user:
-      description: Github repository containing task view
+      description: GitHub repository containing task view
       required: false
       default: 'cran-task-views'
     task-view:

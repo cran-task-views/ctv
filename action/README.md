@@ -1,8 +1,8 @@
 # Validate CRAN Task View
 
-This GitHub action validates proposed changes to a CRAN task view. It is 
-designed for use in the `cran-task-views` GitHub repository, but can be run in
-any user repository using the `user` option.
+This GitHub Action validates proposed changes to a CRAN task view. It is 
+designed for use in the `cran-task-views` GitHub organization, but can
+be run in any user repository using the `user` option.
 
 # Using this workflow
 
@@ -36,5 +36,5 @@ jobs:
 ```
 
 Replace `<TaskViewName>` with the name of the task view. The task view should be
-contained in a file named `TaskViewName.md` in the `user/TaskViewName` github 
+contained in a file named `TaskViewName.md` in the `user/TaskViewName` GitHub 
 repository.
