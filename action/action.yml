@@ -6,9 +6,6 @@ inputs:
       description: GitHub repository containing task view
       required: false
       default: 'cran-task-views'
-    task-view:
-      description: Name of task view. Should match GitHub user name, and the name of TaskView.md.
-      required: true
     run-only:
       description: Skip the setup step and run the test directly assuming that setup was run.
       required: false
