@@ -32,7 +32,7 @@ jobs:
   validate-ctv:
     runs-on: ubuntu-latest
     steps:
-      - uses: cran-task-views/ctv/action@main
+      - uses: cran-task-views/ctv/validate-ctv@main
 ```
 
 Replace `<TaskViewName>` with the name of the task view. The task view should be
