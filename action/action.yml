@@ -1,6 +1,6 @@
 name: Validate CRAN Task View
 description: Validate CRAN Task View
-author: 'Martin R. Smith'
+author: 'Martin R. Smith, CRAN Task View Initiative'
 inputs:
     user:
       description: GitHub repository containing task view
