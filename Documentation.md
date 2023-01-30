@@ -249,8 +249,8 @@ using a GitHub Action provided by the CRAN Task View Initiative. The action chec
 that the HTML conversions works without error, its links work correctly, and that
 no new archived packages were introduced in the task view.
 
-The GitHub Action can be installed as described in the
-[action/README](https://github.com/cran-task-views/ctv/blob/main/action/README.md).
+The GitHub Action can be installed as demonstrated an described in
+[validate-ctv/](validate-ctv/).
 In its current version, it is automatically run at push or merge requests 
 performed in the main branch of the task view file. More general guidance about
 [GitHub Actions](https://github.com/features/actions) can be found in the the
