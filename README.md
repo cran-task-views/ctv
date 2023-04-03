@@ -103,6 +103,7 @@ All contributions must be made under the [Code of conduct](CodeOfConduct.md).
 * [NaturalLanguageProcessing](https://github.com/cran-task-views/NaturalLanguageProcessing/)
 * [NumericalMathematics](https://github.com/cran-task-views/NumericalMathematics/)
 * [OfficialStatistics](https://github.com/cran-task-views/OfficialStatistics/)
+* [Omics](https://github.com/cran-task-views/Omics/)
 * [Optimization](https://github.com/cran-task-views/Optimization/)
 * [Pharmacokinetics](https://github.com/cran-task-views/Pharmacokinetics/)
 * [Phylogenetics](https://github.com/cran-task-views/Phylogenetics/)
