@@ -10,12 +10,12 @@ that are overseen by the [CRAN Task View Initiative](https://github.com/cran-tas
   within the `cran-task-views` organization: `https://github.com/cran-task-views/MyTopic`.
   
 * _Access:_ All CRAN Task View Editors have "Admin" access to the repositories within the organization.
-  Moreover, the principal maintainer (listed first in task view Markdown file) gets "Admin"
+  Moreover, the principal maintainer (listed first in the task view Markdown file) gets "Admin"
   rights and co-maintainers get "Maintainer" rights.
   
 * _Basic configuration:_ The CRAN Task View Editors set up the basic structure of the repository:
-  `README.md`, `main` branch, "About" description. These configurations should not be modified by
-  the task view maintainers.
+  `README.md`, `main` branch, "About" description. In order to preserve consistency across task
+  views, these configurations should not be modified by the task view maintainers.
 
 * _Main task view file:_ The main task view file follows the naming convention above, say
   `MyTopic.md`, and is written following the corresponding [documentation](Documentation.md).
@@ -47,6 +47,7 @@ that are overseen by the [CRAN Task View Initiative](https://github.com/cran-tas
   appropriately and that the file still works correctly. For the latter it is recommended to run:
   
   ```
+  ctv::read.ctv("MyView.md", cran = TRUE)
   ctv::check_ctv_packages("MyView.md")
   ctv::ctv2html("MyView.md")
   browseURL("MyView.html")
@@ -76,9 +77,10 @@ that are overseen by the [CRAN Task View Initiative](https://github.com/cran-tas
 
 ### CRAN package archivals
 
-* _Goal:_ The CRAN packages listed in a task view should ideally be actively maintained. While this
-  is not easy to check automatically, the archival of a package on CRAN is always a signal that the
-  package should be checked thoroughly.
+* _Goal:_ The CRAN packages listed in a task view should ideally be maintained actively, e.g.,
+  so that improved versions are released by the corresponding maintainers in case the daily CRAN
+  checks discover any issues. While this is not easy to check automatically, the archival of a
+  package on CRAN is always a signal that the package should be checked thoroughly.
   
 * _Possible actions:_ When a listed package gets archived on CRAN, the task view maintainers have a
   range of possible actions to take. (1) They may remove the package immediately from the task view
@@ -92,9 +94,10 @@ that are overseen by the [CRAN Task View Initiative](https://github.com/cran-tas
   
 * _Period of grace:_ If action (2) is taken, then archived packages may be kept in the task view
   for a certain period of grace. Unless it is clear that the package should be removed immediately,
-  it is ok to wait for 60 days. And after 100 days some other action (typically 1) should be taken.
+  it is ok to wait for 60 days. And after 100 days without update of the archived package, some
+  other action (typically 1) should be taken.
   
-* _Actively reaching out:_ To help keeping useful packages on CRAN, is is appreciated if task view
+* _Actively reaching out:_ To help keeping useful packages on CRAN, it is appreciated if task view
   maintainers take action (3) for archived packages. A simple e-mail to the maintainer or creating
   an issue the package's repository are typically a good start, asking for plans of CRAN resubmission,
   possibly also offering help. However, it is at the task view maintainers' discretion to decide
