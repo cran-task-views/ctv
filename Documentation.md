@@ -58,8 +58,8 @@ package like `r pkg("mlogit")` or an important "core" package like
 `r pkg("AER", priority = "core")`.
 
 ### Links
-- Articles: [Special Volume on "Econometrics in R" in JSS (2008)](http://www.jstatsoft.org/v27/)
-- [The Title of a Relevant Homepage](http://path/to/homepage/)
+- Articles: [Special Volume on "Econometrics in R" in JSS (2008)](https://www.jstatsoft.org/v27/)
+- [The Title of a Relevant Homepage](https://path/to/homepage/)
 ```
 
 The document structure consists of three main blocks: (1) Some metainformation
@@ -93,7 +93,7 @@ mailing list shared by the co-maintainers.
 
 * `version` is specified by a date in ISO 8601 format (yyyy-mm-dd).
 
-* Additionally, there are may be optional elements: `source` can be used to link
+* Additionally, there may be optional elements: `source` can be used to link
 to the source repository (typically on GitHub) and `url` for the URL of the
 published task view, respectively. The latter is inserted automatically for the
 official task views on CRAN.
@@ -189,30 +189,32 @@ The CRAN packages listed in task views should ideally be maintained actively,
 so that improved versions are released by the corresponding maintainers in case
 the daily CRAN checks discover any issues.
 
-However, as even actively maintained packages may be temporarily archived on
-CRAN, the following strategy is adopted:
+However, it is not straightforward to test for active maintenance fully automatically
+and even actively maintained packages may be temporarily archived on
+CRAN. Hence, the following strategy is adopted: When a CRAN package from a task view
+is archived, it is still listed in the task view like before. It is only flagged as
+archived in the text and not installed automatically anymore by `install.views()`
+and `update.views()`.
 
-* When a CRAN package from a task view is archived, it is still listed in the
-task view like before. It is only flagged as archived in the text and not
-installed automatically anymore by `install.views()` and `update.views()`.
+This strategy gives both the package maintainers and the task view maintainers
+some time to resolve the situation. See the [maintenance guidelines](Maintenance.md)
+for more details on the recommended actions that task view maintainers should take.
 
-* If the package is still archived after (more than) 60 days, CRAN creates an
-issue in the GitHub repository of the task view (as in
-[this example](https://github.com/cran-task-views/Econometrics/issues/11)).
 
-* At this point the task view maintainers can decide to
+## Using GitHub Actions to validate task views
 
-  - _exclude_ the package from the task view immediately, e.g., if they feel
-    it had not been that relevant and/or not been updated in a very long time;
-  - _reach out to the package maintainer_ to help with releasing an improved
-    version; or
-  - _wait some more_ for an improved version, e.g., when they see that the
-    package maintainers already started addressing the problem.
+The functions recommended above for validating that a task view can be processed
+correctly, `ctv2html()` and `check_ctv_packages()`, can also be run automatically
+using a GitHub Action provided by the CRAN Task View Initiative. The action checks
+that the HTML conversions works without error, its links work correctly, and that
+no new archived packages were introduced in the task view.
 
-* If the package is still archived after (more than) 100 days, CRAN follows
-up on the issue and requests removal of the package from the task view.
-(For sufficiently relevant packages it may be sensible to replace the `pkg()`
-link by a `github()` link in the task view.)
+The GitHub Action can be installed as described in the
+[validate-ctv/README](https://github.com/cran-task-views/ctv/blob/main/validate-ctv/README.md).
+In its current version, it is automatically run at push or merge requests 
+performed in the main branch of the task view file. More general guidance about
+[GitHub Actions](https://github.com/features/actions) can be found in the the
+GitHub documentation.
 
 
 ## Converting the legacy XML format to R/Markdown
@@ -239,19 +241,3 @@ Note that one important difference between the XML and R/Markdown format is that
 the "package list" does not need to be listed separately anymore, it is auto-generated
 from the "info" text. Similarly, the "links" just need to provide those links that
 are not auto-generated from the "info" text.
-
-
-## Using GitHub Actions to validate task views
-
-The functions recommended above for validating that a task view can be processed
-correctly, `ctv2html()` and `check_ctv_packages()`, can also be run automatically
-using a GitHub Action provided by the CRAN Task View Initiative. The action checks
-that the HTML conversions works without error, its links work correctly, and that
-no new archived packages were introduced in the task view.
-
-The GitHub Action can be installed as described in the
-[validate-ctv/README](https://github.com/cran-task-views/ctv/blob/main/validate-ctv/README.md).
-In its current version, it is automatically run at push or merge requests 
-performed in the main branch of the task view file. More general guidance about
-[GitHub Actions](https://github.com/features/actions) can be found in the the
-GitHub documentation.
