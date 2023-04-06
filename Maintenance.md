@@ -18,13 +18,13 @@ that are overseen by the [CRAN Task View Initiative](https://github.com/cran-tas
   the task view maintainers.
 
 * _Main task view file:_ The main task view file follows the naming convention above, say
-  `MyTopic.md`, and is written following the corresponding [documentation](Documentation.md].
+  `MyTopic.md`, and is written following the corresponding [documentation](Documentation.md).
   All (co-)maintainers are responsible for keeping the file valid and up to date (see also below).
   Changes may also be made by the CRAN Task View Editors.
   
 * _Further files and configuration:_ Additional content may be added to the repository by the
   maintainers, e.g., additional documentation of their specific workflow, development branches,
-  R scripts for auxiliary tasks, GitHub actions like
+  R scripts for auxiliary tasks, GitHub Actions like
   [validate-ctv](https://github.com/cran-task-views/ctv/tree/main/validate-ctv), etc.
   It is recommended, though, to keep the repository simple.
 
@@ -52,7 +52,7 @@ that are overseen by the [CRAN Task View Initiative](https://github.com/cran-tas
   browseURL("MyView.html")
   ```
   
-  These checks can be done manually or through the GitHub action
+  These checks can be done manually or through the GitHub Action
   [validate-ctv](https://github.com/cran-task-views/ctv/tree/main/validate-ctv) (which additionally
   does a few further checks).
   
@@ -83,7 +83,7 @@ that are overseen by the [CRAN Task View Initiative](https://github.com/cran-tas
 * _Possible actions:_ When a listed package gets archived on CRAN, the task view maintainers have a
   range of possible actions to take. (1) They may remove the package immediately from the task view
   as well. (2) They may wait for some time and decide after a certain period of grace (see below).
-  (3) They may actively reaching out to the package maintainer, offer support, or try to find new
+  (3) They may actively reach out to the package maintainer, offer support, or try to find new
   maintainers for orphaned packages.
   
 * _Immediate removal:_  Action (1) is typically appropriate if a package was archived for policy
@@ -98,7 +98,7 @@ that are overseen by the [CRAN Task View Initiative](https://github.com/cran-tas
   maintainers take action (3) for archived packages. A simple e-mail to the maintainer or creating
   an issue the package's repository are typically a good start, asking for plans of CRAN resubmission,
   possibly also offering help. However, it is at the task view maintainers' discretion to decide
-  whether action (1) is sufficiently promising or whether actions (1) or (2) seem more appropriate.
+  whether action (3) is sufficiently promising or whether actions (1) or (2) seem more appropriate.
   
 * _CRAN support:_ To help discovering archived packages and initiating one of the actions above,
   the CRAN team regularly checks whether any task views contain packages that have been archived
