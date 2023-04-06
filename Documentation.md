@@ -165,8 +165,8 @@ packages are actually not available on CRAN or not currently maintained
 (archived).
 
 For illustration, the code below employs the `Econometrics.md` file shipped
-within the `ctv` package. Instead a local `MyNewView.md` with resulting
-`MyNewView.html` could be used as well.
+within the `ctv` package. Instead a local `MyTopic.md` with resulting
+`MyTopic.html` could be used as well.
 
 ```
 library("ctv")

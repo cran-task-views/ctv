@@ -17,20 +17,20 @@ which is most convenient for you:
 
 ## Checking pull requests
 
-Before making a pull request for a task view file (say `MyView.md`) please
+Before making a pull request for a task view file (say `MyTopic.md`) please
 ensure that the resulting HTML page is properly formatted:
 
 ```
 library("ctv")
-ctv2html("MyView.md")
-browseURL("MyView.html")
+ctv2html("MyTopic.md")
+browseURL("MyTopic.html")
 ```
 
 Also check that the information text and the package list are consistent and
 that all packages are available from CRAN:
 
 ```
-check_ctv_packages("MyView.md")
+check_ctv_packages("MyTopic.md")
 ```
 
 Further information about the CRAN task view format is available in the
