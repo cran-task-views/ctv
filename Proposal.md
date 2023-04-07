@@ -33,8 +33,9 @@ All contributions must be made under the [Code of conduct](CodeOfConduct.md).
 * _Overlap:_ Comment on potential overlap with already existing task views as well as with task views that might be
   created (or split off) in the future.
 * _Maintainers:_ The proposal should be made by the person willing to act as the principal maintainer for the task view.
-  Furthermore, task views should have teams of additional 1-5 co-maintainers and possible candidates for these can be listed
-  as well in the proposal.
+  Furthermore, task views should have teams of additional 1-5 co-maintainers to share the workload and reflect
+  different perspectives. Ideally the co-maintainers should be a diverse group in terms of gender, origin,
+  scientific field, etc. Possible candidates can be listed in the proposal.
 
 
 ### Review process
@@ -74,3 +75,4 @@ All contributions must be made under the [Code of conduct](CodeOfConduct.md).
 * _Contributions:_ The team of maintainers should be open for suggestions from the community (as described in
   the [contribution guide](Contributing.md)) and handle them regarding the inclusion/exclusion criteria adopted
   for the task view.
+* _Guidelines:_  More details are provided in the [maintenance guidelines](Maintenance.md).
