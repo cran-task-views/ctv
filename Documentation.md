@@ -108,12 +108,12 @@ structure the document with sections, itemized and enumerated lists, bold face,
 italics, etc.
 
 Additionally, short R code chunks with special functions are used for linking to
-resources in the same repository: `pkg()` for normal packages,
+resources in the same repository: `pkg()` for regular packages,
 `pkg(..., priority = "core")` for important "core" packages,  and `view()` for
 related task views. A convenience function `doi()` creates links for
 DOIs (digital object identifiers).
 
-* The distinction between "normal" and "core" packages is only important for the
+* The distinction between "regular" and "core" packages is only important for the
 installation of CRAN task views because the user can specify whether all
 packages (default) or only the most important core packages should be installed
 (with all their dependencies).
@@ -171,8 +171,7 @@ within the `ctv` package. Instead a local `MyTopic.md` with resulting
 ```
 library("ctv")
 file.copy(system.file("ctv", "Econometrics.md", package = "ctv"), "Econometrics.md")
-read.ctv("Econometrics.md", cran = TRUE)
-ctv2html(x)
+ctv2html("Econometrics.md", cran = TRUE)
 browseURL("Econometrics.html")
 check_ctv_packages("Econometrics.md")
 ```
