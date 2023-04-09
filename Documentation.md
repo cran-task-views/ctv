@@ -223,17 +223,17 @@ from the legacy XML format for the task view files to the new R/Markdown format
 described above. Simply using
 
 ```
-ctv:::ctv_xml_to_rmd("MyView.ctv")
+ctv:::ctv_xml_to_rmd("MyTopic.ctv")
 ```
 
-will create a `MyView.md` file from the `.ctv` file. This should do most necessary
+will create a `MyTopic.md` file from the `.ctv` file. This should do most necessary
 transformations automatically. However, it is recommended to thoroughly check
 the resulting file and improve it as appropriate. To check the resulting HTML output
 use
 
 ```
-ctv2html("MyView.md")
-browseURL("MyView.html")
+ctv2html("MyTopic.md")
+browseURL("MyTopic.html")
 ```
 
 Note that one important difference between the XML and R/Markdown format is that

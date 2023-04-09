@@ -47,10 +47,10 @@ that are overseen by the [CRAN Task View Initiative](https://github.com/cran-tas
   appropriately and that the file still works correctly. For the latter it is recommended to run:
   
   ```
-  ctv::read.ctv("MyView.md", cran = TRUE)
-  ctv::check_ctv_packages("MyView.md")
-  ctv::ctv2html("MyView.md")
-  browseURL("MyView.html")
+  ctv::read.ctv("MyTopic.md", cran = TRUE)
+  ctv::check_ctv_packages("MyTopic.md")
+  ctv::ctv2html("MyTopic.md")
+  browseURL("MyTopic.html")
   ```
   
   These checks can be done manually or through the GitHub Action

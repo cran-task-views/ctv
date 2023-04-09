@@ -63,6 +63,8 @@ For contributing to an existing task view please go to the respective repository
 
 For proposing a new task view please follow the guidelines in [Proposal](Proposal.md).
 
+Guidelines for the maintainers of CRAN task views are provided in [Maintenance](Maintenance.md).
+
 Technical documentation about the task view format is in [Documentation](Documentation.md).
 Some more details can be found R-Forge page of the [ctv package](https://ctv.R-Forge.R-project.org/).
 

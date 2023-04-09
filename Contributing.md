@@ -18,7 +18,9 @@ which is most convenient for you:
 ## Checking pull requests
 
 Before making a pull request for a task view file (say `MyTopic.md`) please
-ensure that the resulting HTML page is properly formatted:
+check that the modifications all adhere to the [Documentation](Documentation.md).
+of the CRAN task view format. In particular, ensure that the resulting HTML
+page is properly formatted.
 
 ```
 library("ctv")
@@ -33,5 +35,7 @@ that all packages are available from CRAN:
 check_ctv_packages("MyTopic.md")
 ```
 
-Further information about the CRAN task view format is available in the
-corresponding [Documentation](Documentation.md).
+Some task view repositories also employ the GitHub Action
+[validate-ctv](https://github.com/cran-task-views/ctv/tree/main/validate-ctv)
+to run the checks above (plus some additional ones) automatically for a
+pull request.
