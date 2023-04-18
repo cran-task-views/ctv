@@ -74,6 +74,11 @@ that are overseen by the [CRAN Task View Initiative](https://github.com/cran-tas
   major rewrites, changes of maintainers, etc. - these should be announced to the editors before
   they are implemented/released.
 
+* _Inactivity:_ If the (co-)maintainers of a task view become inactive and/or unresponsive
+  over an extended period of time, the CRAN Task View Editors will reach out to them to help
+  resolve the situation. However, if inactivity remains a problem, the editors may ultimately
+  decide to appoint a new principal maintainer and/or co-maintainers.
+
 
 ### CRAN package archivals
 
