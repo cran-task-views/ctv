@@ -49,11 +49,10 @@ The current team is:
 
 * [Roger Bivand](https://github.com/rsbivand)
 * [Dirk Eddelbuettel](https://github.com/eddelbuettel)
-* [David Meyer](https://github.com/davidjohannesmeyer)
 * [Nathalie Vialaneix](https://github.com/tuxette)
 * [Achim Zeileis](https://github.com/zeileis)
 
-Former contributors include: Henrik Bengtsson, Rocío Joo, Heather Turner.
+Former contributors include: Henrik Bengtsson, Rocío Joo, David Meyer, Heather Turner.
 
 
 ### How to contribute?
