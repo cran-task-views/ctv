@@ -1,6 +1,6 @@
 ## CRAN Task View Initiative <img src="https://avatars.githubusercontent.com/u/61115545" align="right" alt="CRAN Task Views logo" width="180" />
 
-CRAN task views aim to provide some guidance which packages on the
+CRAN task views aim to provide guidance which packages on the
 [Comprehensive R Archive Network (CRAN)](https://CRAN.R-project.org/)
 are relevant for tasks related to a certain topic. They give a brief
 overview of the included packages which can also be automatically installed using the
