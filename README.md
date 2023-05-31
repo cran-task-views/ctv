@@ -73,6 +73,13 @@ For contact via e-mail, please write to `CRAN-task-views@R-project.org`.
 All contributions must be made under the [Code of conduct](CodeOfConduct.md).
 
 
+### Citation
+
+Achim Zeileis, Roger Bivand, Dirk Eddelbuettel, Kurt Hornik, Nathalie Vialaneix (2023).
+"CRAN Task Views: The Next Generation." arXiv 2305.17573, _arXiv.org E-Print Archive_.
+[doi:10.48550/arXiv.2305.17573](https://doi.org/10.48550/arXiv.2305.17573).
+
+
 ### Available task views
 
 * [Agriculture](https://github.com/cran-task-views/Agriculture/)
