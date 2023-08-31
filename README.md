@@ -82,6 +82,7 @@ Achim Zeileis, Roger Bivand, Dirk Eddelbuettel, Kurt Hornik, Nathalie Vialaneix 
 
 ### Available task views
 
+* [ActuarialScience](https://github.com/cran-task-views/ActuarialScience/)
 * [Agriculture](https://github.com/cran-task-views/Agriculture/)
 * [Bayesian](https://github.com/cran-task-views/Bayesian/)
 * [CausalInference](https://github.com/cran-task-views/CausalInference/)
