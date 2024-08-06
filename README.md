@@ -58,7 +58,7 @@ Former contributors include: Henrik Bengtsson, Rocío Joo, David Meyer, Heather 
 ### How to contribute?
 
 For contributing to an existing task view please go to the respective repository
-(see links above) and follow the guidelines in [Contributing](Contributing.md).
+(see links below) and follow the guidelines in [Contributing](Contributing.md).
 
 For proposing a new task view please follow the guidelines in [Proposal](Proposal.md).
 
