@@ -49,6 +49,7 @@ The current team is:
 
 * [Roger Bivand](https://github.com/rsbivand)
 * [Dirk Eddelbuettel](https://github.com/eddelbuettel)
+* [Julia Piaskowski](https://github.com/jpiaskowski)
 * [Nathalie Vialaneix](https://github.com/tuxette)
 * [Achim Zeileis](https://github.com/zeileis)
 
