@@ -93,6 +93,7 @@ Achim Zeileis, Roger Bivand, Dirk Eddelbuettel, Kurt Hornik, Nathalie Vialaneix 
 * [Databases](https://github.com/cran-task-views/Databases/)
 * [DifferentialEquations](https://github.com/cran-task-views/DifferentialEquations/)
 * [Distributions](https://github.com/cran-task-views/Distributions/)
+* [DynamicVisualizations](https://github.com/cran-task-views/DynamicVisualizations/)
 * [Econometrics](https://github.com/cran-task-views/Econometrics/)
 * [Environmetrics](https://github.com/cran-task-views/Environmetrics/)
 * [Epidemiology](https://github.com/cran-task-views/Epidemiology/)
