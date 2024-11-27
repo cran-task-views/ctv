@@ -115,6 +115,7 @@ Achim Zeileis, Roger Bivand, Dirk Eddelbuettel, Kurt Hornik, Nathalie Vialaneix 
 * [OfficialStatistics](https://github.com/cran-task-views/OfficialStatistics/)
 * [Omics](https://github.com/cran-task-views/Omics/)
 * [Optimization](https://github.com/cran-task-views/Optimization/)
+* [Paleontology](https://github.com/cran-task-views/Paleontology/)
 * [Pharmacokinetics](https://github.com/cran-task-views/Pharmacokinetics/)
 * [Phylogenetics](https://github.com/cran-task-views/Phylogenetics/)
 * [Psychometrics](https://github.com/cran-task-views/Psychometrics/)
