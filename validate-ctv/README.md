@@ -2,7 +2,8 @@
 
 This GitHub Action validates proposed changes to a CRAN task view. It is 
 designed for use in the `cran-task-views` GitHub organization, but can
-be run in any user repository using the `user` option.
+be run in any user repository using the `user` option. By default, it will
+also run on the 1st of every month to check for deprecated packages.
 
 # Using this workflow
 
@@ -25,6 +26,8 @@ on:
     paths:
       - '.github/workflows/validate-ctv.yml'
       - '<TaskViewName>.md'
+  schedule:
+    - cron: '30 5 1 * *'
 
 name: Validate task view
 
