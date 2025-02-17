@@ -71,7 +71,7 @@ runs:
           } else {
             previousArchive <- ctv::check_ctv_packages(
               paste0("https://raw.githubusercontent.com/${{ inputs.user }}/",
-                     basename(getwd()), "/main/", basename(getwd()), ".md"
+                     basename(getwd()), "/${{ github.base_ref || github.ref_name }}/", basename(getwd()), ".md"
               ))[["Packages in packagelist but archived on CRAN"]]
             newArchives <- setdiff(archived, previousArchive)
             if (length(newArchives)) {
