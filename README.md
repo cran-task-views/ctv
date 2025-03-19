@@ -111,6 +111,7 @@ Achim Zeileis, Roger Bivand, Dirk Eddelbuettel, Kurt Hornik, Nathalie Vialaneix 
 * [MixedModels](https://github.com/cran-task-views/MixedModels/)
 * [ModelDeployment](https://github.com/cran-task-views/ModelDeployment/)
 * [NaturalLanguageProcessing](https://github.com/cran-task-views/NaturalLanguageProcessing/)
+* [NetworkAnalysis](https://github.com/cran-task-views/NetworkAnalysis/)
 * [NumericalMathematics](https://github.com/cran-task-views/NumericalMathematics/)
 * [OfficialStatistics](https://github.com/cran-task-views/OfficialStatistics/)
 * [Omics](https://github.com/cran-task-views/Omics/)
