@@ -90,6 +90,7 @@ Achim Zeileis, Roger Bivand, Dirk Eddelbuettel, Kurt Hornik, Nathalie Vialaneix 
 * [ChemPhys](https://github.com/cran-task-views/ChemPhys/)
 * [ClinicalTrials](https://github.com/cran-task-views/ClinicalTrials/)
 * [Cluster](https://github.com/cran-task-views/Cluster/)
+* [CompositionalData](https://github.com/cran-task-views/CompositionalData/)
 * [Databases](https://github.com/cran-task-views/Databases/)
 * [DifferentialEquations](https://github.com/cran-task-views/DifferentialEquations/)
 * [Distributions](https://github.com/cran-task-views/Distributions/)
