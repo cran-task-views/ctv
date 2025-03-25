@@ -63,16 +63,23 @@ runs:
 
         archived <- result[[4]]
         if (length(archived)) {
-          previousArchive <- ctv::check_ctv_packages(
-           paste0("https://raw.githubusercontent.com/${{ inputs.user }}/",
-           basename(getwd()), "/main/", basename(getwd()), ".md"
-          ))[["Packages in packagelist but archived on CRAN"]]
-          newArchives <- setdiff(archived, previousArchive)
-          if (length(newArchives)) {
+          if ("${{ github.event_name }}" != "pull_request") {
+            stop(
+              "Archived packages in packagelist:\n - ",
+              paste0(archived, collapse = "\n - ")
+            )
+          } else {
+            previousArchive <- ctv::check_ctv_packages(
+              paste0("https://raw.githubusercontent.com/${{ inputs.user }}/",
+                     basename(getwd()), "/${{ github.base_ref || github.ref_name }}/", basename(getwd()), ".md"
+              ))[["Packages in packagelist but archived on CRAN"]]
+            newArchives <- setdiff(archived, previousArchive)
+            if (length(newArchives)) {
               stop(
                 "Adding archived packages:\n - ",
                 paste0(newArchives, collapse = "\n - ")
               )
+            }
           }
         }
       shell: Rscript {0}
