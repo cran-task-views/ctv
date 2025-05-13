@@ -111,6 +111,6 @@ that are overseen by the [CRAN Task View Initiative](https://github.com/cran-tas
 * _CRAN support:_ To help discovering archived packages and initiating one of the actions above,
   the CRAN team regularly checks whether any task views contain packages that have been archived
   on CRAN for 60 days or more. If so, they create an issue in the corresponding task view, currently
-  from the acount [statmath-IT](https://github.com/statmath-it), asking for appropriate actions.
+  from the acount [kurthornik](https://github.com/kurthornik), asking for appropriate actions.
   The task view maintainers should respond in a timely manner (see also "Community contributions"
   above).
