@@ -31,6 +31,8 @@ name: Validate task view
 jobs:
   validate-ctv:
     runs-on: ubuntu-latest
+    container:
+      image: rocker/r2u:latest
     steps:
       - uses: cran-task-views/ctv/validate-ctv@main
 ```

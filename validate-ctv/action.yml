@@ -1,92 +1,75 @@
 name: Validate CRAN Task View
-description: Validate CRAN Task View
-author: 'Martin R. Smith, CRAN Task View Initiative'
-inputs:
-    user:
-      description: GitHub repository containing task view
-      required: false
-      default: 'cran-task-views'
-    run-only:
-      description: Skip the setup step and run the test directly assuming that setup was run.
-      required: false
-      default: false
+description: Validate the md file in a GitHub repository for a CRAN Task View
+author: CRAN Task View Initiative
+
 runs:
   using: 'composite'
   steps:
-    - if: inputs.run-only != 'true'
-      uses: actions/checkout@v4
+    - uses: actions/checkout@v5
 
-    - if: inputs.run-only != 'true'
-      uses: r-lib/actions/setup-r@v2
+    - name: SessionInfo
+      shell: Rscript {0}
+      run: sessionInfo()
 
-    - name: Install apt packages (Linux)
-      if: runner.os == 'Linux' && inputs.run-only != 'true'
-      run: |
-        sudo apt-get install libcurl4-openssl-dev
+    - name: System dependencies
       shell: bash
+      # can be used to install e.g. cmake or other build dependencies
+      run: apt update -qq && apt install --yes --no-install-recommends pandoc
 
-    - if: inputs.run-only != 'true'
-      uses: r-lib/actions/setup-pandoc@v2
-
-    - if: inputs.run-only != 'true'
-      name: Cache R packages
-      uses: actions/cache@v4
-      with:
-        path: ${{ env.R_LIBS_USER }}
-        key: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-${{ hashFiles('.github/depends.Rds') }}
-        restore-keys: ${{ runner.os }}-${{ hashFiles('.github/R-version') }}-1-
-
-    - if: inputs.run-only != 'true'
-      name: Install R packages
-      run: |
-        install.packages("ctv")
-        install.packages("knitr")
-        install.packages("rmarkdown")
-        install.packages("RCurl")
+    - name: Install ctv package and dependencies
       shell: Rscript {0}
+      run: install.packages(c("ctv", "knitr", "rmarkdown", "RCurl"))
 
-    - name: ctv2html
-      run: |
-        ctv::ctv2html(paste0(basename(getwd()), ".md"))
+    - name: Query and set name of main .md file
       shell: Rscript {0}
-
-    - name: check_ctv_packages
       run: |
-        result <- ctv::check_ctv_packages(paste0(basename(getwd()), ".md"))
-        exceptArchive <- result[-4]
-        failures <- lengths(exceptArchive) > 0
-        if (any(failures)) {
-          print(result[failures])
-          message("\n\n\n\n") # "Stop" command sometimes appears early
-          stop("See errors identified above")
-        }
+        md <- paste0(basename(getwd()), ".md")
+        if (!file.exists(md)) md <- setdiff(Sys.glob("*.md"), "README.md")
+        if (length(md) > 1L) md <- md[1L]
+        cat(paste0("MD=", md, "\n"), file = Sys.getenv("GITHUB_ENV"), append = TRUE)
 
-        archived <- result[[4]]
-        if (length(archived)) {
-          previousArchive <- ctv::check_ctv_packages(
-           paste0("https://raw.githubusercontent.com/${{ inputs.user }}/",
-           basename(getwd()), "/main/", basename(getwd()), ".md"
-          ))[["Packages in packagelist but archived on CRAN"]]
-          newArchives <- setdiff(archived, previousArchive)
-          if (length(newArchives)) {
-              stop(
-                "Adding archived packages:\n - ",
-                paste0(newArchives, collapse = "\n - ")
-              )
-          }
-        }
+    - name: Run existence test for main .md file
       shell: Rscript {0}
-
-    - name: check other links
-      if: success() || failure()
       run: |
-        links <- ctv::read.ctv(paste0(basename(getwd()), ".md"))$otherlinks
+        ok <- file.exists(Sys.getenv("MD"))
+        # TRUE is success and returned as status zero
+        q("no", status = as.integer(!ok))
+
+    - name: Check that .md file can be read as ctv
+      shell: Rscript {0}
+      run: |
+        ctv <- try(ctv::read.ctv(Sys.getenv("MD")))
+        ok <- inherits(ctv, "ctv")
+        if (ok) cat(paste0("CTV=", ctv$name, "\n"), file = Sys.getenv("GITHUB_ENV"), append = TRUE)
+        q("no", status = as.integer(!ok))
+
+    - name: Convert .md file to .html
+      shell: Rscript {0}
+      run: |
+        html <- ctv::ctv2html(Sys.getenv("MD"))
+        ok <- is.character(html)
+        q("no", status = as.integer(!ok))
+
+    - name: Check for unavailable or archived packages
+      shell: Rscript {0}
+      run: |
+        chck <- ctv::check_ctv_packages(Sys.getenv("MD"))
+        unavailable <- chck[[3]]
+        archived <- chck[[4]]
+        cran_ctv <- try(ctv::ctv(Sys.getenv("CTV")), silent = TRUE)
+        if (!inherits(cran_ctv, "try-error")) archived <- setdiff(archived, cran_ctv$archived)
+        ok <- c(length(unavailable), length(archived)) == 0L
+        if (!ok[1]) cat(sprintf("Packages unavailable on CRAN: %s\n", paste(unavailable, collapse = ", ")))
+        if (!ok[2]) cat(sprintf("Added packages archived on CRAN: %s\n", paste(archived, collapse = ", ")))
+        q("no", status = as.integer(any(!ok)))
+
+    - name: Check for unavailable links
+      shell: Rscript {0}
+      run: |
+        ctv <- ctv::read.ctv(Sys.getenv("MD"))
+        links <- unlist(ctv[c("links", "otherlinks")])
         urls <- sub(".*href=\"(.*)\".*", "\\1", links)
-        ok <- RCurl::url.exists(urls)
-        if (any(!ok)) {
-          message(paste0("::warning file=", basename(getwd()), ".md::Inoperational links"))
-          stop("URLs did not return OK status:\n - ",
-              paste0(names(ok)[!ok], collapse = "\n - ")
-          )
-        }
-      shell: Rscript {0}
+        urls <- urls[!RCurl::url.exists(urls)]
+        ok <- length(urls) == 0L
+        if (!ok) cat(sprintf("Unavailable links:\n%s\n", paste(urls, collapse = "\n")))
+        q("no", status = as.integer(!ok))
