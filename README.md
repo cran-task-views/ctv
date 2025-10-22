@@ -85,6 +85,7 @@ Achim Zeileis, Roger Bivand, Dirk Eddelbuettel, Kurt Hornik, Julia Piaskowski, N
 
 * [ActuarialScience](https://github.com/cran-task-views/ActuarialScience/)
 * [Agriculture](https://github.com/cran-task-views/Agriculture/)
+* [AnomalyDetection](https://github.com/cran-task-views/AnomalyDetection/)
 * [Bayesian](https://github.com/cran-task-views/Bayesian/)
 * [CausalInference](https://github.com/cran-task-views/CausalInference/)
 * [ChemPhys](https://github.com/cran-task-views/ChemPhys/)
