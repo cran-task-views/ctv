@@ -76,9 +76,9 @@ All contributions must be made under the [Code of conduct](CodeOfConduct.md).
 
 ### Citation
 
-Achim Zeileis, Roger Bivand, Dirk Eddelbuettel, Kurt Hornik, Nathalie Vialaneix (2023).
-"CRAN Task Views: The Next Generation." arXiv 2305.17573, _arXiv.org E-Print Archive_.
-[doi:10.48550/arXiv.2305.17573](https://doi.org/10.48550/arXiv.2305.17573).
+Achim Zeileis, Roger Bivand, Dirk Eddelbuettel, Kurt Hornik, Julia Piaskowski, Nathalie Vialaneix (2025).
+"The CRAN Task View Initiative." _The R Journal_, **17**(2), 4-14.
+[doi:10.32614/RJ-2025-011](https://doi.org/10.32614/RJ-2025-011).
 
 
 ### Available task views
