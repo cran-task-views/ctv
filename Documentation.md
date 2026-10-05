@@ -130,8 +130,6 @@ Moreover, code projects in other repositories can be linked by using the functio
 * `bioc()` for Bioconductor packages at <https://www.Bioconductor.org/>.
 * `github()` for GitHub projects at <https://github.com/>.
 * `rforge()` for R-Forge projects at <https://R-Forge.R-project.org/>.
-* `gcode()` for projects in the Google Code archive at <https://Code.Google.com/archive/>.
-* `ohat()` for Omegahat packages at <https://www.Omegahat.net/>.
 
 Note however that CRAN task views are intended mainly for packages on CRAN (as the
 name conveys). Thus, links to other repositories should be used for _important_
