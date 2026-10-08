@@ -129,6 +129,7 @@ Moreover, code projects in other repositories can be linked by using the functio
 
 * `bioc()` for Bioconductor packages at <https://www.Bioconductor.org/>.
 * `github()` for GitHub projects at <https://github.com/>.
+* `codeberg()` for Codeberg projects at <https://codeberg.org/>.
 * `rforge()` for R-Forge projects at <https://R-Forge.R-project.org/>.
 
 Note however that CRAN task views are intended mainly for packages on CRAN (as the
